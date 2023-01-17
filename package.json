@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "scripts": {
+    "build": "cp src/*.html dist",
+    "prebuild": "tailwindcss -i ./src/input.css -o ./dist/output.css"
+  }
+}
